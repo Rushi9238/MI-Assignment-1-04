@@ -1,0 +1,41 @@
+.thirdPages{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirdPages .box{
+    /* border: 2px solid green; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.thirdPages .box .secondBox{
+    border: 1px solid black;
+}
+.thirdPages .box .firstBox{
+    border: 1px solid blue;
+
+}
+.thirdPages .box .box1{
+    height: 80%;
+    width: 46%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box1 p{
+    font-weight: bold;
+    opacity: .7;
+    height: 45%;
+}

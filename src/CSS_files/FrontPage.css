@@ -1,0 +1,28 @@
+.frontPage{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.frontPage .name{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25%;
+    width: 100%;
+}
+.frontPage .name input{
+height: 60%;
+width: 100%;
+padding-left: 1rem;
+border-radius: 10px;
+outline: none;
+}
+.frontPage .name label{
+    font-size: large;
+    font-weight: 600;
+}

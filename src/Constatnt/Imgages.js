@@ -1,0 +1,1 @@
+export const logoImg='https://cutshort-assignment-prakash.netlify.app/new_logo_full.png'
