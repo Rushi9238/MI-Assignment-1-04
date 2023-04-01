@@ -42,10 +42,7 @@
     font-size: 1rem;
 }
 @media only screen and (min-width:319px) and (max-width:560px){
-    .thirdPages{
-            border: 2px solid red;
-
-    }
+   
     .box1 p{
         font-size: .8rem;
     }
