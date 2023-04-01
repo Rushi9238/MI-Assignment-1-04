@@ -47,6 +47,7 @@ function App() {
           <LooksOneIcon
             fontSize='large'
             color={ count<1 ? '' : 'primary'}
+            
           />
            <hr style={{width:'15%',border:`1px solid ${count<2 ? '' : '#1976d2'}`}} />
           <LooksTwoIcon

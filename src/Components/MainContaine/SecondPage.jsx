@@ -13,6 +13,7 @@ const SecondPage = () => {
    </div>
    <div className="name">
     <label>Workspace Name</label>
+    
     <input type="text" name="" id="" placeholder='Example' />
    </div>
    </div>

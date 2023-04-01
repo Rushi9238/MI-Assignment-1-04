@@ -7,6 +7,13 @@
     justify-content: space-around;
     align-items: center;
 }
+.frontPage h2{
+    font-size: 1.8rem;
+}
+ p{
+    font-size: 1.2rem;
+    opacity: .7;
+}
 .frontPage .name{
     /* border: 2px solid green; */
     display: flex;
@@ -21,6 +28,8 @@ width: 100%;
 padding-left: 1rem;
 border-radius: 10px;
 outline: none;
+border: 1px solid;
+font-size: 1.1rem;
 }
 .frontPage .name label{
     font-size: large;
