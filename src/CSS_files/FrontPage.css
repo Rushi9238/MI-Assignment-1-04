@@ -9,10 +9,12 @@
 }
 .frontPage h2{
     font-size: 1.8rem;
+    text-align: center;
 }
  p{
     font-size: 1.2rem;
     opacity: .7;
+    /* text-align: center; */
 }
 .frontPage .name{
     /* border: 2px solid green; */
@@ -34,4 +36,25 @@ font-size: 1.1rem;
 .frontPage .name label{
     font-size: large;
     font-weight: 600;
+}
+@media only screen and (min-width:319px) and (max-width:560px){
+    .frontPage{
+    border: 2px solid red;
+
+    }
+    .frontPage h2{
+        font-size: 1.4rem;
+        text-align: center;
+
+    }
+    p{
+font-size: 1rem;
+    }
+    .frontPage .name{
+        justify-content: space-around;
+    }
+    .frontPage .name input{
+        height: 45%;
+
+    }
 }

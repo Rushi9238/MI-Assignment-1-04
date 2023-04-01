@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+   
 }
 .thirdPages .box{
     /* border: 2px solid green; */
@@ -38,5 +39,11 @@
     font-weight: bold;
     opacity: .7;
     height: 45%;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+@media only screen and (min-width:319px) and (max-width:560px){
+    .thirdPages{
+            border: 2px solid red;
+
+    }
 }
