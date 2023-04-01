@@ -59,33 +59,29 @@
 @media only screen and (min-width:768px) and (max-width:950px){
     .mainDiv{
     /* border: 2px solid blue; */
-    height: 100%;
-    width: 40%;
+    height: 95%;
+    width: 35%;
     }
 }
 @media only screen and (min-width:560px) and (max-width:768px){
     .mainDiv{
         /* border: 2px solid blue; */
-        height: 100%;
-        width: 50%;
+        height: 95%;
+        width: 40%;
         }
 }
-@media only screen and (min-width:319px) and (max-width:560px){
+@media only screen and (min-width:321px) and (max-width:560px){
     .mainDiv{
         /* border: 2px solid blue; */
-        height: 95%;
-        width: 75%;
+        height: 90%;
+        width: 70%;
         }
-        .mainDiv .showInput{
-            /* border: 2px solid blue; */
-            height: 60%;
-            width: 98%;
-        }
+        
 }
-@media only screen and (max-width:318px){
+@media only screen and (max-width:320px){
     .mainDiv{
-        border: 2px solid blue;
-        height: 100%;
+        /* border: 2px solid blue; */
+        height: 90%;
         width: 80%;
         }
 }

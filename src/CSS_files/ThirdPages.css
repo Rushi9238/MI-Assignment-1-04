@@ -50,3 +50,8 @@
         font-size: .8rem;
     }
 }
+@media only screen and (max-width:318px){
+    .box1 p{
+        font-size: .8rem;
+    }
+}
